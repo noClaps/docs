@@ -10,6 +10,9 @@ hero:
     - theme: alt
       text: Znak
       link: /znak
+    - theme: alt
+      text: NC
+      link: /nc
 
 features:
   - title: The Blog of Random
@@ -22,4 +25,8 @@ features:
     details: A parser for a Markdown-like markup language
     link: https://github.com/noClaps/znak
     linkText: See the Znak parser source code
+  - title: NC
+    details: A new language I'm working on
+    link: https://github.com/noClaps/nc
+    linkText: Visit the NC repository
 ---

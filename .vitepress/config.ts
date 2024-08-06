@@ -13,6 +13,7 @@ export default defineConfig({
         items: [
           { text: "The Blog of Random", link: "/blog/writing-posts" },
           { text: "Znak", link: "/znak" },
+          { text: "NC", link: "/nc/" },
         ],
       },
     ],
@@ -31,6 +32,13 @@ export default defineConfig({
             { text: "Syntax", link: "/znak/syntax" },
             { text: "Types", link: "/znak/types" },
           ],
+        },
+      ],
+      "/nc/": [
+        {
+          text: "NC",
+          link: "/nc",
+          items: [{ text: "Design", link: "/nc/design" }],
         },
       ],
     },
