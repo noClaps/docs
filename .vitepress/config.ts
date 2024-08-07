@@ -14,6 +14,7 @@ export default defineConfig({
           { text: "The Blog of Random", link: "/blog/writing-posts" },
           { text: "Znak", link: "/znak" },
           { text: "NC", link: "/nc/" },
+          { text: "CLI", link: "/cli" },
         ],
       },
     ],
@@ -39,6 +40,16 @@ export default defineConfig({
           text: "NC",
           link: "/nc",
           items: [{ text: "Design", link: "/nc/design" }],
+        },
+      ],
+      "/cli/": [
+        {
+          text: "CLI",
+          link: "/cli",
+          items: [
+            { text: "random", link: "/cli/random" },
+            { text: "lsdeps", link: "/cli/lsdeps" },
+          ],
         },
       ],
     },

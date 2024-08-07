@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: NC
       link: /nc
+    - theme: alt
+      text: CLI
+      link: /cli
 
 features:
   - title: The Blog of Random
