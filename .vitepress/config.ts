@@ -6,7 +6,11 @@ export default defineConfig({
   description: "Documentation for ZeroLimits projects",
   cleanUrls: true,
   lastUpdated: true,
+  head: [["link", { rel: "icon", href: "/favicon.png" }]],
   themeConfig: {
+    logo: {
+      src: "/favicon.png",
+    },
     nav: [
       {
         text: "Documentation",
